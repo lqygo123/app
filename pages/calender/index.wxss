@@ -1,0 +1,18 @@
+
+
+.add {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background-color: #ff629a;
+  color: white;
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bolder;
+}

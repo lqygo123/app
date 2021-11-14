@@ -1,0 +1,9 @@
+<text>必做的100件事情</text>
+
+<label class="weui-cell weui-check__label" wx:for="{{todolist}}" wx:key="index">
+  <view class="weui-cell__hd">
+    <checkbox value="{{item.name}}" checked="{{item.statues}}"/>
+    <text class="weui-cell__bd">{{item.name}}</text>
+  </view>
+
+</label>

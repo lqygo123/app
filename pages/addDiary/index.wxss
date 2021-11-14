@@ -1,0 +1,12 @@
+/* pages/addDiary/index.wxss */
+@import '../../utils/weui.wxss';
+
+textarea {
+  line-height: 30px;
+  min-height: 200px;
+}
+
+.weui-cells {
+  border: none;
+  margin: 20px;
+}

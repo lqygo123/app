@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="name">陆乾昱 ❤ 龙东苗</view>
+  <text class="time">
+    我们在一起已经 \n <text class="days">{{days}}</text>天啦
+  </text>
+</view>

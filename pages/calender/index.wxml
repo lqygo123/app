@@ -1,0 +1,21 @@
+
+
+<view class="container">
+  <calendar
+    id="calendar"
+    config="{{calendarConfig}}"
+    bind:onSwipe="onSwipe"
+    bind:whenChangeWeek="whenChangeWeek"
+    bind:whenChangeMonth="whenChangeMonth"
+    bind:takeoverTap="takeoverTap"
+    bind:afterTapDate="afterTapDate"
+    bind:afterCalendarRender="afterCalendarRender"
+  />
+
+  <view class="list"></view>
+
+  <view class="add" bindtap="addDiary">
+    +
+  </view>
+</view>
+

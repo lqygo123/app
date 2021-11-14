@@ -1,0 +1,28 @@
+/**index.wxss**/
+.container {
+  background-image: url("http://image.biaobaiju.com/uploads/20190928/14/1569650553-UKDEaIHCVz.jpg");
+  background-size: cover;
+  background-position: center;
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}

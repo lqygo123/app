@@ -1,0 +1,36 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/calender/index",
+          "pathName": "pages/calender/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/todo/index",
+          "pathName": "pages/todo/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/addDiary/index",
+          "pathName": "pages/addDiary/index",
+          "query": "dateUnixStamp=1636848000000",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
