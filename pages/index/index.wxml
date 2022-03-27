@@ -1,7 +1,20 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="name">陆乾昱 ❤ 龙东苗</view>
-  <text class="time">
-    我们在一起已经 \n <text class="days">{{days}}</text>天啦
-  </text>
+  <view class="text-wrap">
+    <view class="name">陆乾昱 ❤ 龙东苗</view>
+    <view class="time">
+      我们在一起已经 <text class="days">{{days}}</text> 天啦
+    </view>
+  </view>
+
+
+  <swiper class="swiper" duration="{{500}}" circular="{{true}}" indicator-dots="{{true}}">
+    <block wx:for="{{imageList}}" wx:key="*this">
+      <swiper-item>
+        <image class="swiper-item" src="{{item}}" mode="aspectFill"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <image class="image" src="cloud://cloud1-5gdyp07le399c2b8.636c-cloud1-5gdyp07le399c2b8-1306701722/相册.png" bindtap="routeToManagerPhoto"></image>
 </view>

@@ -1,17 +1,13 @@
 <view class="container">
-  <template is="head" data="{{title: 'choose/previewImage'}}" />
   <view class="page-body">
     <form>
       <view class="page-section">
         <view class="weui-cells">
-          <view class="textarea-wrp">
-            <textarea class="editor" auto-focus="true" auto-height placeholder="我想说..." bindinput="handleInput" />
-          </view>
 
           <view class="weui-uploader__files">
             <block wx:for="{{imageList}}" wx:for-item="image">
               <view class="weui-uploader__file">
-                <image class="delete" src="../../image/delete.svg" data-src="{{image}}" bindtap="handleDelete"></image>
+                <image class="delete" src="../../../image/delete.svg" data-src="{{image}}" bindtap="handleDelete"></image>
                 <image class="weui-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
               </view>
             </block>
@@ -22,7 +18,7 @@
 
         </view>
         <view>
-          <button type="primary" bindtap="saveDiary">添加日记</button>
+          <button type="primary" bindtap="handleSave">保存</button>
         </view>
       </view>
     </form>

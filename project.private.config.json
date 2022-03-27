@@ -15,8 +15,9 @@
         {
           "name": "pages/calender/index",
           "pathName": "pages/calender/index",
-          "query": "",
-          "scene": null
+          "query": "AA=123",
+          "scene": null,
+          "launchMode": "default"
         },
         {
           "name": "pages/todo/index",
@@ -28,6 +29,12 @@
           "name": "pages/addDiary/index",
           "pathName": "pages/addDiary/index",
           "query": "dateUnixStamp=1636848000000",
+          "scene": null
+        },
+        {
+          "name": "pages/index/photoManager/index",
+          "pathName": "pages/index/photoManager/index",
+          "query": "",
           "scene": null
         }
       ]

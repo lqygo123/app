@@ -12,7 +12,15 @@
     bind:afterCalendarRender="afterCalendarRender"
   />
 
-  <view class="list"></view>
+  <view class="timeline-item" wx:for="{{timelineList}}" wx:key="id" wx:for-item="timelineItem">
+    <view class="content"><text>{{timelineItem.content}}</text></view>
+    
+    <view class="potolist-con">
+      <view class="{{ timelineItem.photos.length > 1 ? 'timeline-photo block' : 'timeline-photo'}}" wx:for="{{timelineItem.photos}}" wx:key="previewSrc" wx:for-item="photosItem">
+        <image src="{{photosItem}}" data-src="{{photosItem}}" data-diaryid="{{timelineItem.id}}" mode="aspectFill" bindtap="previewImage" />
+      </view>
+    </view>
+  </view>
 
   <view class="add" bindtap="addDiary">
     +

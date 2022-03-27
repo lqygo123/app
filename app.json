@@ -3,30 +3,31 @@
     "pages/index/index",
     "pages/calender/index",
     "pages/todo/index",
-    "pages/addDiary/index"
+    "pages/addDiary/index",
+    "pages/index/photoManager/index"
   ],
   "tabBar": {
     "color": "#7A7E83",
-    "selectedColor": "#3cc51f",
+    "selectedColor": "#c19fdb",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
+        "iconPath": "image/xihuan1.png",
+        "selectedIconPath": "image/xihuan1.png",
         "text": "我们"
       },
       {
         "pagePath": "pages/calender/index",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
+        "iconPath": "image/riji.png",
+        "selectedIconPath": "image/riji.png",
         "text": "恋爱日记"
       },
       {
         "pagePath": "pages/todo/index",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API_HL.png",
+        "iconPath": "image/renwu1.png",
+        "selectedIconPath": "image/renwu1.png",
         "text": "100件小事"
       }
     ]
@@ -34,7 +35,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "恋爱日记",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",

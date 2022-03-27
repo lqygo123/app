@@ -1,0 +1,21 @@
+[
+  {
+    "name": "getAllDiary",
+    "value": {
+      "action": "getAllDiary"
+    }
+  },
+  {
+    "name": "addDiary",
+    "value": {
+      "action": "addDiary",
+      "payload": {
+        "dateUnixStamp": "1645244440967",
+        "diaryObj": {
+          "content": "11111111",
+          "photos": []
+        }
+      }
+    }
+  }
+]

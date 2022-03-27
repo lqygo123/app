@@ -1,5 +1,5 @@
 /* pages/addDiary/index.wxss */
-@import '../../utils/weui.wxss';
+@import '../../../utils/weui.wxss';
 
 textarea {
   line-height: 30px;
